@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: alist
+    env: docker
+    repo: https://github.com/YidaozhanYa/alist-render
+    region: singapore
+    branch: v2
+    envVars:
+      - key: ADATABASE
+        value: "mysql"
+      - key: BSQLUSER
+        value: "MySQL用户名 | root"
+      - key: CSQLPASSWORD
+        value: "MySQL密码 | 123456"
+      - key: DSQLHOST
+        value: "MySQL主机地址 | db4free.net"
+      - key: ESQLPORT
+        value: "MySQL端口 | 3306"
+      - key: FSQLNAME
+        value: "数据库名称 | alistdb"
+      - key: GEXPIRATION
+        value: 60
+      - key: HCLEANUP_INTERVAL
+        value: 120
+      - key: IASSETS
+        value: "jsdelivr"
