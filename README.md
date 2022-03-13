@@ -3,7 +3,7 @@
 点击这里开始👉 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## FAQ
-问：如果让 Herok 应用保持存活状态？
+问：如果让 Heroku 应用保持存活状态？
 
 答：
 
