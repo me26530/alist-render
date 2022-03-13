@@ -1,10 +1,10 @@
 # Alist on Render
 
-首先fork到你的仓库，更改 `render.yaml` 中的环境变量值，之后点击这里开始👉 
+首先fork到你的仓库，**更改 `render.yaml` 中的环境变量值**，之后点击这里开始👉 
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-## 各个环境变量的作用请查看 [APP.md](APP.md)
+## 各个环境变量的作用请查看 [原 Alist on Heroku 的 app.json](app.json)
 
 
 ## 使用免费 MySQL 远程数据库（推荐）
