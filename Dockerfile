@@ -6,4 +6,6 @@ RUN chmod -R 777 /opt/alist/data
 ADD alist.sh /alist.sh
 RUN chmod +x /alist.sh
 
-CMD /alist.sh
+EXPOSE 5244
+
+ENTRYPOINT ["sh", "/alist.sh"]
